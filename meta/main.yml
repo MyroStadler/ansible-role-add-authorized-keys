@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: add_authorized_keys
   author: Myro Stadler
   description: Add authorized keys to remote user
   company: 

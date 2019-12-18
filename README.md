@@ -22,9 +22,17 @@ Example Playbook
 ----------------
 
 ```
-- hosts: servers
-  roles:
-     - { role: myrostadler.add_authorized_keys }
+---
+- name: Add authorized keys to remote user
+  hosts: all
+  become: true
+  vars:
+    add_authorized_keys: 
+      - foo
+      - bar
+  tasks:
+  - include_role: 
+      name: myrostadler.add_authorized_keys
 ```
 
 License
