@@ -2,7 +2,7 @@ galaxy_info:
   role_name: add_authorized_keys
   author: Myro Stadler
   description: Add authorized keys to remote user
-  company: 
+  company:
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -44,4 +44,4 @@ galaxy_info:
 dependencies: []
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,
   # if you add dependencies to this list.
-  
+
